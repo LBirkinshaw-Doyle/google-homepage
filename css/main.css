@@ -73,6 +73,8 @@ a:visited{
 #tripdots{
     padding: 5px;
     margin: 5px 15px 5px 0px;
+    color: #5f6368;
+    fill: currentColor;
 }
 #sign-in{
     padding: 9px 23px 9px 23px;
