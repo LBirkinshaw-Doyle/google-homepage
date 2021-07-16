@@ -1,1 +1,90 @@
 /* CSS stylesheet for Google Homepage project */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222;
+    background: #fff;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+#body-container{
+    display: flex;
+    flex-direction: column;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    height: 60px;
+}
+.header-left-link{
+    padding: 5px;
+    margin: 0px 15px 5px 0px;
+    color: rgb(34, 34, 34);
+}
+#header-sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    min-width: 0px;
+}
+#header-spacer{
+    flex: 1;
+    flex-grow: 10;
+    min-width: 100px;
+}
+#header-nav-container{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header-links-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-link{
+    padding: 5px;
+    margin: 0px 15px 5px 0px;
+    color: rgb(34, 34, 34);
+    font-size: 13px;
+}
+#header-button-container{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#tripdots{
+    padding: 5px;
+    margin: 0px 15px 5px 0px;
+}
+#sign-in{
+    padding: 9px 23px 9px 23px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 0px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    min-width: 96px;
+    background: rgb(26, 115, 233);
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
