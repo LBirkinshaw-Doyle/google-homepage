@@ -31,13 +31,19 @@ a:visited{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 0;
+    box-sizing: border-box;
     padding: 6px;
     height: 60px;
 }
 .header-left-link{
+    display: inline-block;
     padding: 5px;
-    margin: 0px 15px 5px 0px;
+    margin: 0px 5px 5px 5px;
     color: rgb(34, 34, 34);
+}
+.header-left-link:first-of-type{
+    margin-left: 15px;
 }
 #header-sub-container{
     display: flex;
