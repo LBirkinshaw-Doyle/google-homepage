@@ -177,13 +177,30 @@ a#sign-in:hover{
     fill: currentColor;
 }
 #seach-text-container{
-
+    display: flex;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 #search-text-div{
-
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    flex: 100%;
 }
 #text-entry{
-
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    flex: 100%;
+    outline: none;
+    display: flex;
+    height: 34px;
+    font-size: 16px;
 }
 #button-container{
 
