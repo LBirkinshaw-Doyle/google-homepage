@@ -218,6 +218,7 @@ a#sign-in:hover{
     min-width: 54px;
     text-align: center;
     font-family: inherit;
+    font-size: inherit;
 }
 .search-button:hover{
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
