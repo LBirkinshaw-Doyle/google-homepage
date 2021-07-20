@@ -1,10 +1,13 @@
 /* CSS stylesheet for Google Homepage project */
-
+html{
+    height: 100%;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #222;
     background: #fff;
+    height: 100%;
 }
 a:link{
     text-decoration: none;
@@ -20,6 +23,8 @@ a:visited{
 #body-container{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    height: 100%;
 }
 #header-container{
     display: flex;
@@ -105,13 +110,12 @@ a#sign-in:hover{
     align-items: center;
     flex-direction: column;
     flex-shrink: 0;
-    height: 92px;
-    max-height: 290px;
+    flex-grow: 1;
     min-height: 92px;
 }
 #logo-div{
     height: 92px;
-    margin-top: 0px;
+    margin-top: auto;
     max-height: 92px;
 }
 #logo{
@@ -124,8 +128,8 @@ a#sign-in:hover{
 #search-container{
     display: flex;
     flex-shrink: 0;
+    flex-grow: 1;
     padding: 20px;
-    max-height: 160px;
     box-sizing: border-box;
 }
 #bar-button-div{
